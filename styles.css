@@ -1,0 +1,341 @@
+/*general*/
+/* main{
+    background-color: black; !important;
+} */
+
+body{
+    color: #F2EDD4;
+    font-size: 3rem;!important;
+}
+
+h2{
+    font-family:'Lateef', sans-serif;
+    font-size: 50px;
+    margin-bottom: 200px;!important;
+    color: #1F2B33;!important;
+}
+/* header*/
+header{
+    color: #000;
+    background-color: #D6F585; /* grüm hintergrund */
+}
+
+/*nav*/
+.row-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 90px;
+    position: relative;
+}
+/*col*/
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+/*nav*/
+.nav{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav li a{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: grey;
+}
+
+.justify-content-end{
+    justify-content: flex-end !important;
+    width: 26.04167vw;
+}
+
+/*nav logo*/
+.logo{
+    height: 100px;
+    display: inline-block;
+    float: left;
+    width: 35vw;
+}
+
+.logo img {
+    height: 90px;
+    padding: 20px;
+    position: relative;
+}
+
+/* main */
+main{
+    height: 1200px;
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+/*text*/
+.text-left{
+    margin-bottom: 30px;
+}
+.text-right{
+    margin-bottom: 30px;
+}
+
+
+/* buttons */
+.btn-group-1{
+    float: right;
+}
+.btn-group-2{
+    float: left;
+}
+.btn-group{
+    background-color: #1F2B33;!important;
+    margin-top: 20px;
+}
+
+/*bilder*/
+img {
+    border-radius: 20px;
+}
+
+.float-left{
+    width: 300px;
+    padding-right: 30px;
+}
+.float-left-2{
+    width: 500px;
+    padding-right: 30px;
+}
+
+/*footer*/
+.footer-home {
+    padding: 0 50px 10px 50px;
+    margin-top: 1200px;
+    background-color: #D6F585;
+    color: #000000;
+}
+
+.footer-rezepte {
+    padding: 0 50px 10px 50px;
+    margin-top: 1200px;
+    background-color: #D6F585;
+    color: #000000;
+}
+
+.footer-contact {
+    padding: 0 50px 10px 50px;
+    background-color: #D6F585;
+    color: #000000;
+}
+
+.footer li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.footer-class{
+    font-weight: bolder;
+}
+
+.footer span a{
+    color: black;
+}
+
+/*footer socials*/
+ul .socials{
+    padding: 0;
+    margin-right: 410px;
+}
+
+.socials {
+    display: flex;
+    list-style-type: none;
+    color: black;!important;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.socials .fa-brands{
+    color: black;
+    padding: 10px 30px 10px 0;
+}
+
+.index-container{
+    height: 2000px;
+}
+
+
+/*special on each side*/
+
+/*index.html*/
+
+/* 3. Abschnitt*/
+.card-img-top {
+    height: 240px;
+}
+.card-group{
+    padding-bottom: 50px;
+    padding-top:100px;
+}
+.card-titel{
+    text-align: center;
+    font-family:'Pacifico', sans-serif;
+    color: #1F2B33;
+    font-size: 16px;
+}
+
+/* video */
+video { /* parent*/
+    max-width:100%;
+}
+
+#smootieorange{
+    width: 65%;
+}
+
+
+/*rezepte.html*/
+
+/*animation titel*/
+.container-new{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.new {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: #D6F585;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.new p {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    animation: anim 100s linear infinite;
+    white-space:nowrap;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*gallery*/
+.carousel-section {
+    padding: 0;
+    margin: 0;
+}
+.carousel-inner img {
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #1F2B33;
+}
+#carouselExampleSlidesOnly{
+}
+
+#botanicals{
+    width: 100%;
+    float: left;
+}
+
+/*flipcard*/
+.maincontainer{
+    position: relative;
+    width: 450px;
+    height: 360px;
+    display: inline-block;
+}
+
+.card-maincontainer {
+    padding-left: 270px;
+}
+
+.img-card {
+    width: 450px;
+    height: 360px;
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: #dee2e6;
+}
+.card-title {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    backface-visibility: hidden;
+    background: #D6F585;
+    border-radius: 20px;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.theback li{
+    font-size: 15px;
+}
+
+
+/*kontakt.html*/
+
+/*map*/
+.mapouter {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.gmap_canvas {
+    border-radius: 40px;
+}
